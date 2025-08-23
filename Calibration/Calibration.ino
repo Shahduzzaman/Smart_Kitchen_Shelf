@@ -3,8 +3,8 @@
 #include <EEPROM.h>
 #endif
 
-const int HX711_dout = 4; 
-const int HX711_sck = 5; 
+const int HX711_dout = 27; 
+const int HX711_sck = 14; 
 
 HX711_ADC LoadCell(HX711_dout, HX711_sck);
 
